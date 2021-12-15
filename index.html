@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="snowflake">
+    <div class="countdown-wrapper">
+      <h1 class="title">до Нового Года осталось:</h1>
+      <div id="year" class="year">2022</div>
+      <div class="countdown timer" id=countdown>
+        <div class="time">
+          <h2 id="days">00</h2>
+          <small>дней</small>
+        </div>
+        <div class="time">
+          <h2 id="hours">00</h2>
+          <small>часов</small>
+        </div>
+        <div class="time">
+          <h2 id="minutes">00</h2>
+          <small>минут</small>
+        </div>
+        <div class="time">
+          <h2 id="seconds">00</h2>
+          <small>секунд</small>
+        </div>
+      </div>
+      <div class="developer-name">
+        Разработал и Поздравляет всех с 
+        <span>Новым Годом:</span>
+        <span class="name">Кривитченко Владислав</span>
+      </div>
+    </div>
+
+  </div>
+
+
+  <video id="myaudio" controls="" loop="" autoplay="" name="media" preload="auto" hidden>
+    <source src="./audio/jingle-balls.mp3" type="audio/mp3">
+  </video>
+
+  <script src="./js/main.js" type="module"></script>
+  <script src="./js/sparticles.min.js"></script>
+</body>
+
+</html>
